@@ -1,0 +1,18 @@
+name: noaa_ofs_agg
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8  # this is required for the dev tools/precommit stuff
+  - dask
+  - h5netcdf
+  - ipython
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - netCDF4
+  - numpy
+  - pandas
+  - pip
+  - xarray
+  - pip:  # install from github to get recent PRs I contributed
+    - siphon  # can get from conda-forge but isn't recognized

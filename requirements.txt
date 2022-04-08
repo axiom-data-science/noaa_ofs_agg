@@ -1,0 +1,11 @@
+dask
+h5netcdf
+h5pyd
+jupyterlab
+matplotlib
+netCDF4
+numpy
+pandas
+pip
+siphon
+xarray
